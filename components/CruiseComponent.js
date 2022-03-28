@@ -5,12 +5,12 @@ import Title from "./shared/Title";
 import TextInput from "./shared/TextInput";
 import Button from "./shared/Button";
 import Heading from "./shared/Heading";
-
+import Message from "./shared/Message";
 import Image from "next/image";
 import one from "./shared/one.gif";
 import two from "./shared/two.gif";
 import three from "./shared/three.gif";
-import { GiOrbDirection } from "react-icons/gi";
+
 import Curve from "./shared/Curve";
 import Curve2 from "./shared/Curve2";
 
@@ -91,7 +91,7 @@ const CruiseComponent = () => {
             <div className="font-normal text-[16px] leading-[27px]">
               Run your queries in the editor and use our intuitive interface to
               <span className="font-bold pl-1">
-                navigate through your data - clean, organised and at your
+                navigate through your data clean, organised and at your
                 fingertips.
               </span>
             </div>
@@ -104,11 +104,11 @@ const CruiseComponent = () => {
           <Divider />
         </div>
         <div className="text-center font-semibold text-lg pt-[67px] pb-[50px]">
-          We're building an ecosystem where{" "}
+          We're building an ecosystem where
           <SpanText value={"anyone can get inspired"} /> with <br />
           application templates, discover novel ideas from top builders, and
           <br />
-          <SpanText value={"publish revolutionary applications"} /> that could{" "}
+          <SpanText value={"publish revolutionary applications"} /> that could
           <SpanText value={"change the world."} />
         </div>
       </div>

@@ -1,0 +1,8 @@
+.divider {
+  height: 22px;
+  transform: rotate(0.74deg);
+  background-color: black;
+  width: 953px;
+  clip-path: polygon(100% 40.4%, 34.5% 16.8%, 0% 58.8%, 0% 63.1%, 68.1% 97.6%);
+
+}

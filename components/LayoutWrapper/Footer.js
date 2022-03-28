@@ -5,7 +5,7 @@ const Footer = () => {
   return (
     <div className="flex bg-zinc-700 justify-between items-center h-64">
       <div className="pl-24 mb-10">
-        <div className="text-zinc-200 mb-4">© 2022 Vade Labs Pvt. Ltd.</div>
+        <div className="text-zinc-200 mb-4">{`&#39; 2022 Vade Labs Pvt. Ltd.`}</div>
         <div className="flex justify-center ">
           <BsLinkedin color="white" className="ml-2" />
           <BsTwitter color="white" className="ml-2" />

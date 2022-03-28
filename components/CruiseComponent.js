@@ -19,7 +19,6 @@ const CruiseComponent = () => {
   const onHandleClick = () => {
     setEmail(true);
   };
- 
 
   return (
     <>
@@ -49,13 +48,13 @@ const CruiseComponent = () => {
             </div>
           </div>
           <div className="rounded-lg relative top-[3.75rem]">
-            <Image  alt="img_src" src={one} width={543} height={358} />
+            <Image alt="img_src" src={one} width={543} height={358} />
           </div>
         </div>
         <Curve />
         <div className="flex justify-center mb-36 items-center  ">
           <div className="rounded-lg relative top-[90px]">
-            <Image  alt="img_src" src={two} width={543} height={358} />
+            <Image alt="img_src" src={two} width={543} height={358} />
           </div>
           <div className="pl-[60px] w-[430px] h-[123px]">
             <div className="font-semibold text-[144px] leading-[84px] flex justify-end relative z-[-1] text-zinc-200 top-8 left-10">
@@ -97,7 +96,7 @@ const CruiseComponent = () => {
             </div>
           </div>
           <div className="rounded-lg">
-            <Image  alt="img_src" src={three} width={543} height={358} />
+            <Image alt="img_src" src={three} width={543} height={358} />
           </div>
         </div>
         <div className="flex justify-center">
@@ -132,7 +131,7 @@ const CruiseComponent = () => {
                 An email has been sent to your inbox.
               </div>
               <div>
-                <div className="text-xs font-semibold ">Didn’t receive?</div>
+                <div className="text-xs font-semibold ">Didn't receive?</div>
                 <div
                   className="text-red-500 text-xs font-semibold cursor-pointer"
                   onClick={() => setEmail(!email)}

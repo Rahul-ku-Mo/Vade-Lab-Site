@@ -82,7 +82,7 @@ const Landing = () => {
             </div>
           </div>
           <div className="flex justify-center rotate-[160deg] translate-y-1.5 relative right-16 ">
-            <Image alt={img_src} src={here} height={121} width={144} />
+            <Image alt="img_src" src={here} height={121} width={144} />
           </div>
           <div className="font-black font-[Exo 2] relative left-28 text-lg">
             TAKE A TOUR

@@ -1,9 +1,9 @@
 const Curve2 = () => {
   return (
-    <div class="h-[196px] relative bottom-[50px]">
+    <div className="h-[196px] relative bottom-[50px]">
       <svg
         width="520"
-        class="h-48 hidden md:block absolute right-1/2 transform translate-x-1/2 scale-125"
+        className="h-48 hidden md:block absolute right-1/2 transform translate-x-1/2 scale-125"
         height="317"
         viewBox="0 0 520 317"
         fill="none"

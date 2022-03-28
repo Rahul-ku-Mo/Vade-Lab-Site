@@ -23,7 +23,7 @@ const SkipComponent = () => {
         <Title value={"the hassle."} spanValue={"Skip"}/>
         </div>
       <div className="flex  justify-center mb-[200px]">
-        <Image src={hassle} width={1080} height={521}/>
+        <Image alt="img_src" src={hassle} width={1080} height={521}/>
       </div>
     </div>
   );

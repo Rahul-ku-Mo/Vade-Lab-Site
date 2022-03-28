@@ -49,13 +49,13 @@ const CruiseComponent = () => {
             </div>
           </div>
           <div className="rounded-lg relative top-[3.75rem]">
-            <Image src={one} width={543} height={358} />
+            <Image  alt="img_src" src={one} width={543} height={358} />
           </div>
         </div>
         <Curve />
         <div className="flex justify-center mb-36 items-center  ">
           <div className="rounded-lg relative top-[90px]">
-            <Image src={two} width={543} height={358} />
+            <Image  alt="img_src" src={two} width={543} height={358} />
           </div>
           <div className="pl-[60px] w-[430px] h-[123px]">
             <div className="font-semibold text-[144px] leading-[84px] flex justify-end relative z-[-1] text-zinc-200 top-8 left-10">
@@ -84,20 +84,20 @@ const CruiseComponent = () => {
                 Play around with the generated APIs.
               </span>
               <br />
-              Once configured – test, build and deploy
+              Once configured test, build and deploy
               <br /> the unified API into our secure and reliable
               infrastructure.
             </div>
             <div className="font-normal text-[16px] leading-[27px]">
               Run your queries in the editor and use our intuitive interface to
               <span className="font-bold pl-1">
-                navigate through your data - clean, organised & at your
+                navigate through your data - clean, organised and at your
                 fingertips.
               </span>
             </div>
           </div>
           <div className="rounded-lg">
-            <Image src={three} width={543} height={358} />
+            <Image  alt="img_src" src={three} width={543} height={358} />
           </div>
         </div>
         <div className="flex justify-center">

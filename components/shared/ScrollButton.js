@@ -26,9 +26,10 @@ const ScrollButton = () => {
   };
   useEffect(() => {
     window.addEventListener("scroll", listenToScroll);
-    console.log(window.scrollY);
+
     return () => window.removeEventListener("scroll", listenToScroll);
   });
+
   return (
     <>
       {isVisible && (
@@ -38,7 +39,6 @@ const ScrollButton = () => {
               className="flex justify-center"
               onClick={() => {
                 scrollToTop();
-                window.location.replace("/");
               }}
             >
               <GiOrbDirection className="cursor-pointer" />

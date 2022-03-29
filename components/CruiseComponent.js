@@ -21,7 +21,7 @@ const CruiseComponent = () => {
   };
 
   return (
-    <>
+    <div id="cruise">
       <div className="text-center pb-[140px] ">
         <Title spanValue={"Cruise"} value={"through backend."} />
       </div>
@@ -143,7 +143,7 @@ const CruiseComponent = () => {
           </div>
         )}
       </div>
-    </>
+    </div>
   );
 };
 

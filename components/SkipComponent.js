@@ -8,7 +8,8 @@ import Image from "next/image";
 
 const SkipComponent = () => {
   return (
-    <div className="pt-32 rounded-t-[60px] px-20 border-t-2 shadow-[0_-11px_10px_0px_rgba(0,0,0,0.3)] ">
+    <div id="skip"
+     className="pt-32 rounded-t-[60px] px-20 border-t-2 shadow-[0_-11px_10px_0px_rgba(0,0,0,0.3)] ">
       <div className="pb-12 text-center font-semibold text-lg">
         We understand your needs to <SpanText value={"build integrated applications"} /> in today’s<br/>
         hyper-connected world. <SpanText value={"Skip the hassle"}/> to repeat a cumbersome process<br/>

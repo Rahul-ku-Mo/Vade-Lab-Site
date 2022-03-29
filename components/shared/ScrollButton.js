@@ -12,7 +12,7 @@ const ScrollButton = () => {
   const [isVisible, setIsVisible] = useState(true);
 
   const listenToScroll = () => {
-    let heightToHideFrom = 3600;
+    let heightToHideFrom = 3900;
 
     const winScroll =
       document.body.scrollTop || document.documentElement.scrollTop;

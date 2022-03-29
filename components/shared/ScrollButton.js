@@ -38,11 +38,12 @@ const ScrollButton = () => {
               className="flex justify-center"
               onClick={() => {
                 scrollToTop();
+                window.location.replace("/");
               }}
             >
               <GiOrbDirection className="cursor-pointer" />
             </div>
-            <div className="cursor-pointer font-[600]">Back To Top</div>
+            <div className="font-[600]">Back To Top</div>
           </div>
         </div>
       )}

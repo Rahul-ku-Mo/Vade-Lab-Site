@@ -7,7 +7,9 @@ const Header = () => {
   return (
     <>
       <div className="flex justify-between drop-shadow-md mt-3 mb-2 border-b-2 backdrop-blur-md">
-        <div className="ml-14">
+        <div className="ml-14" onClick={() => {
+          window.location.reload();
+        }}>
           <Image alt="logo" width={186.27} height={48} src={logo} />
         </div>
         <div className="flex justify-between items-center text-base ">
